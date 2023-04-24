@@ -1,0 +1,15 @@
+/* div{
+    padding: 10px;
+} */
+.yellow{
+    background-color: yellow;
+}
+.card{
+    width: 200px;
+   
+}
+.icon{
+    font-size: 60px;
+    width:fit-content;
+    height: fit-content;
+}

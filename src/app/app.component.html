@@ -1,0 +1,22 @@
+<!-- header -->
+<header>
+    <app-header (toggle)="sidebarToggle()"></app-header>
+</header>
+
+<mat-drawer-container class="example-container h-150">
+    <mat-drawer mode="side" [opened]="sidebar">
+        <app-side-bar>
+         
+        </app-side-bar>
+    </mat-drawer>
+    <mat-drawer-content>
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+</mat-drawer-container>
+<mat-divider></mat-divider>
+
+
+
+
+    
+
